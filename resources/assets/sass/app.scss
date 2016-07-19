@@ -1,0 +1,41 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+html, body {
+  margin: 0 auto;
+}
+
+.nav-row {
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+ .button-col {
+   margin-top: 20px;
+ }
+
+ .buttons {
+   margin-right: 10px;
+   margin-left: 10px;
+   .btn {
+     border: none;
+     font-size: 160%;
+     color: #1c385d;
+   }
+   .btn-group {
+     a {
+       color: #1c385d;
+     }
+   }
+ }
+
+ .button-container {
+   margin: 0 auto;
+   text-align: center;
+ }
+
+ .name {
+   font-size: 3.4em;
+   padding-left: 15%;
+ }
+
+@import "index"
